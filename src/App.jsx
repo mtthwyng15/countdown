@@ -21,7 +21,7 @@ class App extends Component {
            Countdown to { this.state.deadline }
         </div>
 
-        <Clock />
+        <Clock deadline={this.state.deadline}/>
 
         <div>
           <input
